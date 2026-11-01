@@ -159,6 +159,11 @@ nav .btn{padding:11px 22px;font-size:15px;color:#fff}
 .t .role{font-size:14px;color:var(--texte-doux)}
 .t.todo p{color:#9AA3B5}
 
+.video-t{display:grid;grid-template-columns:320px 1fr;gap:48px;align-items:center;max-width:860px;margin:0 auto 48px}
+.video-t video{width:100%;aspect-ratio:9/16;border-radius:8px;background:#000;object-fit:cover;display:block;border-left:5px solid var(--rouge);box-shadow:0 14px 34px rgba(14,80,154,.18)}
+.vt-text h3{font-size:30px;margin-bottom:12px}
+.vt-text p{color:var(--texte-doux)}
+@media(max-width:760px){.video-t{grid-template-columns:1fr;gap:24px;text-align:center}.video-t video{max-width:300px;margin:0 auto}}
 /* CTA final */
 .final-grid{display:grid;grid-template-columns:300px 1fr;gap:64px;align-items:center;max-width:1000px}
 .final-grid .final-text{text-align:left}
@@ -385,6 +390,16 @@ footer .legal{width:100%;border-top:1px solid rgba(255,255,255,.2);margin-top:30
   <div class="wrap">
     <span class="eyebrow" style="display:block;text-align:center">Ils m'ont fait confiance</span>
     <h2>Ce qu'en disent mes clients</h2>
+    <div class="video-t">
+      <video controls playsinline preload="none" poster="temoignage-emmanuel.jpg">
+        <source src="temoignage-emmanuel.mp4" type="video/mp4">
+      </video>
+      <div class="vt-text">
+        <span class="eyebrow">Témoignage vidéo</span>
+        <h3>Emmanuel raconte son accompagnement</h3>
+        <p>Comment il m'a connue, ce qui le bloquait, et ce qui a changé pour lui.</p>
+      </div>
+    </div>
     <div class="tgrid">
       <div class="t"><p>Pour reprendre la main sur mon activité, il me fallait reprendre la main sur ma posture. En un an, j'ai triplé mon chiffre d'affaires, mais c'est surtout tout ce qui a bougé à l'intérieur qui fait la différence. Son accompagnement va bien au-delà du business.</p><div class="who">Audrey</div></div>
       <div class="t"><p>Fatiguée par un rythme professionnel intense, Aurélie m'a accompagnée vers une reprise d'énergie, pour moi et mon entreprise. J'ai retrouvé mon énergie, atteint des objectifs sur lesquels j'étais bloquée, et elle m'a également formée sur les réseaux sociaux.</p><div class="who">Lily</div></div>
