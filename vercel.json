@@ -1,8 +1,74 @@
 {
   "redirects": [
-    { "source": "/entrepreneurs.html", "destination": "/accompagnement.html", "permanent": true },
-    { "source": "/psycho-emotionnel.html", "destination": "/accompagnement.html", "permanent": true },
-    { "source": "/developper-activite-therapeute.html", "destination": "/", "permanent": true },
-    { "source": "/couple-famille.html", "destination": "/", "permanent": true }
+    {
+      "source": "/entrepreneurs.html",
+      "destination": "/accompagnement.html",
+      "permanent": true
+    },
+    {
+      "source": "/psycho-emotionnel.html",
+      "destination": "/accompagnement.html",
+      "permanent": true
+    },
+    {
+      "source": "/developper-activite-therapeute.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/couple-famille.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/voir-les-sejours.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sejour-entrepreneurs.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sejour-groupe.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sejour-quete-de-sens.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/formation-reseaux-sociaux.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/journee-propulsion.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/reconversion-entrepreneuriale.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/programme-entrepreneur.html",
+      "destination": "/accompagnement.html",
+      "permanent": true
+    },
+    {
+      "source": "/aurelietrement-site-v8/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/site-final3/:path*",
+      "destination": "/",
+      "permanent": true
+    }
   ]
 }
