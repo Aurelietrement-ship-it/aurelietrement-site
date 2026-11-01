@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    { "source": "/entrepreneurs.html", "destination": "/accompagnement.html", "permanent": true },
+    { "source": "/psycho-emotionnel.html", "destination": "/accompagnement.html", "permanent": true },
+    { "source": "/developper-activite-therapeute.html", "destination": "/", "permanent": true },
+    { "source": "/couple-famille.html", "destination": "/", "permanent": true }
+  ]
+}
