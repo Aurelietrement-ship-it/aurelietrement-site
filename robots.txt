@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://aurelietrement.fr/sitemap.xml
+Sitemap: https://www.aurelietrement.fr/sitemap.xml
 
