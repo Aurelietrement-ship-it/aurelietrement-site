@@ -242,6 +242,24 @@ footer .legal{width:100%;border-top:1px solid rgba(255,255,255,.2);margin-top:30
 
 .rdv-note{margin-top:14px;font-size:14px;color:var(--texte-doux);letter-spacing:.02em}
 .final .rdv-note{margin-top:14px;margin-bottom:0}
+/* Articles */
+.a-hero{padding:80px 0 40px;text-align:center}
+.a-hero h1{font-size:50px;margin-bottom:16px}
+.a-hero p{font-size:20px;color:var(--texte-doux);max-width:640px;margin:0 auto}
+.a-list{padding:30px 0 100px}
+.a-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.a-card{background:#fff;border-radius:6px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s}
+.a-card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(14,80,154,.12)}
+.a-card .img{aspect-ratio:16/10;background-size:cover;background-position:center 30%}
+.a-card .img.txt{display:flex;align-items:center;justify-content:center;background:var(--bleu);color:#fff;font-family:'Playfair Display',serif;font-size:26px;padding:24px;text-align:center}
+.a-card .c{padding:24px 26px 28px;display:flex;flex-direction:column;flex:1}
+.cat{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--rouge);margin-bottom:10px}
+.a-card h2{font-size:23px;margin-bottom:10px}
+.a-card p{font-size:16px;color:var(--texte-doux);flex:1}
+.a-card .more{margin-top:18px;font-weight:600;color:var(--bleu);font-size:15px}
+.home-articles .wrap>h2{font-size:42px;text-align:center;margin-bottom:44px}
+.home-articles .a-grid{max-width:960px;margin:0 auto;grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.home-articles .a-grid{grid-template-columns:1fr}.home-articles .wrap>h2{font-size:34px}}
 /* Bandeau cookies */
 .ck{position:fixed;left:20px;bottom:20px;z-index:1000;max-width:420px;background:#fff;border-radius:8px;box-shadow:0 10px 30px rgba(14,80,154,.2);padding:20px 22px;font-size:14px;color:var(--texte)}
 .ck[hidden]{display:none}
@@ -472,6 +490,19 @@ footer .legal{width:100%;border-top:1px solid rgba(255,255,255,.2);margin-top:30
       <div class="t"><p>Fatiguée par un rythme professionnel intense, Aurélie m'a accompagnée vers une reprise d'énergie, pour moi et mon entreprise. J'ai retrouvé mon énergie, atteint des objectifs sur lesquels j'étais bloquée, et elle m'a également formée sur les réseaux sociaux.</p><div class="who">Lily</div></div>
       <div class="t"><p>J'y ai trouvé bien plus que des outils entrepreneuriaux&nbsp;: une nouvelle posture, plus assumée, plus alignée, plus audacieuse. Aurélie m'a permis de dépasser mes freins et de sortir de ma zone de confort, tant sur le plan professionnel que personnel.</p><div class="who">Laurence</div></div>
     </div>
+  </div>
+</section>
+
+<!-- DERNIERS ARTICLES -->
+<section class="home-articles">
+  <div class="wrap">
+    <span class="eyebrow" style="display:block;text-align:center">Le carnet du dirigeant</span>
+    <h2>Derniers articles</h2>
+    <div class="a-grid">
+  <a class="a-card" href="pourquoi-un-dirigeant-reagit-au-lieu-de-decider.html"><div class="img" style="background-image:url(aurelie-trement-portrait.jpg?v=2)"></div><div class="c"><div class="cat">Posture</div><h2>Pourquoi un dirigeant réagit au lieu de décider</h2><p>Sous pression, ce n'est pas votre stratégie qui décide. C'est ce que vous portez en vous.</p><div class="more">Lire l'article →</div></div></a>
+  <a class="a-card" href="trois-jours-en-bretagne-emmanuel.html"><div class="img" style="background-image:url(temoignage-emmanuel.jpg)"></div><div class="c"><div class="cat">Récit d'accompagnement</div><h2>3 jours en Bretagne aux côtés d'Emmanuel</h2><p>Après 24 ans dans la gendarmerie, il s'est reconverti. Posture, vente, visibilité : récit d'un cap passé.</p><div class="more">Lire l'article →</div></div></a>
+</div>
+    <p style="text-align:center;margin-top:36px"><a href="articles.html" class="btn ghost">Voir tous les articles</a></p>
   </div>
 </section>
 
