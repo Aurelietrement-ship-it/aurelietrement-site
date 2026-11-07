@@ -105,6 +105,15 @@
           "value": "*"
         }
       ]
+    },
+    {
+      "source": "/carnet-mecanismes-defense-7e409561.pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }
