@@ -114,6 +114,15 @@
           "value": "noindex, nofollow"
         }
       ]
+    },
+    {
+      "source": "/extrait-mecanismes-defense-9454f713.pdf",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }
